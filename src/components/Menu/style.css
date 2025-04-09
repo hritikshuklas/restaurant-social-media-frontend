@@ -1,0 +1,13 @@
+#menu-container{
+    width: 70%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-listener{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

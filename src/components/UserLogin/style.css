@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+.card:hover {
+    box-shadow:none;
+}
+.error_message {
+    color: red;
+}
+#loginbg{
+    background-color: #fbde00;
+    height:90vh;
+    width: 100%;
+}
+
+#loginparent{
+    width: 80%
+}
+
+#loginform{
+    border-radius: 1rem 0 0 1rem;
+    width: 55%;
+    margin: 0;
+}
+#logincontainer{
+    width:60%;
+}
+#loginimage{
+    background-image: url(https://media.istockphoto.com/photos/vodka-pens-picture-id531487755?k=20&m=531487755&s=612x612&w=0&h=Y8y_V-T1-_R9YZFQxkDZ2O7gtKaqCGm36BkIMSfOWBM=); 
+    border-radius: 0 1rem 1rem 0;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width:20%;
+}
+#userEmail, #userPassword{
+    width: 90%;
+}
+
+@media screen and (max-width: 950px){
+    #loginimage{
+        display: none;
+    }
+    #logincontainer{
+        width:100%;
+    }
+    #loginform{
+        border-radius: 1rem;
+    }
+    #userEmail, #userPassword{
+        width: 100%;
+    }
+}
+ 

@@ -1,0 +1,9 @@
+#comment-scroll-listener{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#comment-container{
+    width: 70%;
+}

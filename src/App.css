@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* /---- Colors ----/ */
+
+
+/*---- Colors ----*/
+.bg-primary {
+  background-color:#f3df00 !important;
+}
+
+.text-primary {
+  color:#cab901 !important;
+}
+
+/* /* ---------------- / */
+
+
+html, body {
+  margin:0;
+  top: 56px;
+  padding:0;
+}
+
+
+#big-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.big-container{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  
+}
+
+@media only screen and (max-width: 1400px) {
+.big-container{
+      width:70%;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .big-container{
+      width:40%;
+  }
+}
+
+ 
+
+
+/* / ## Bootstrap Overrides ## */
+
+.btn-primary {
+  background-color:#ffeb00 !important;
+  outline-color:#ffeb00 !important;
+  border-color:#ffeb00 !important;
+  color:#222 !important;
+}
+
+.btn-primary:hover {
+  background-color:#222 !important;
+  outline-color:#222 !important;
+  border-color:#222 !important;
+  color:#ffeb00 !important;
+}

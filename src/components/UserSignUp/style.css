@@ -1,0 +1,69 @@
+body{
+    height:100%;
+}
+
+.error_message {
+    color: red;
+}
+
+#big-container{
+    width: 100% !important;
+}
+
+#signupbg{
+    width: 100vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#signupparent{
+    width: 80%;
+}
+
+section{
+    height: 50%;
+}
+
+#signupimage{
+    background-image: url(https://media.pitchfork.com/photos/5929b22f13d197565213a719/1:1/w_600/67ce3bba.jpg); 
+    border-radius: 1rem 0 0 1rem;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width:20%;
+}
+
+#signupformbody{
+    border-radius: 0 1rem 1rem 0;
+    width: 60%;
+    margin: 0;
+}
+
+#signupcontainer{
+    width:60%;
+}
+
+#signupform input[type="text"], input[type="email"], input[type="password"]
+{
+    width: 95%;
+}
+#background{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fbde00;
+    height: 60vh;
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (max-width: 950px){
+    #signupimage{
+        display: none;
+    }
+    #signupformbody{
+        border-radius: 1rem;
+        width: 100%;
+    }
+}

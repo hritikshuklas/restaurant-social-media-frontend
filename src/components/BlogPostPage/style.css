@@ -1,0 +1,9 @@
+#blogpost-scroll-listener{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#blogpost-container{
+    width: 70%;
+}

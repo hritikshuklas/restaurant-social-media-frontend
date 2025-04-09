@@ -1,0 +1,62 @@
+
+
+
+body{
+    height: auto !important;
+}
+
+.form-outline {
+    min-width: 250px;
+    
+    width: 50%;
+}
+
+
+ 
+#search-container  input {
+    height:3em;
+   
+}
+#search-container select {
+   background-color: yellow;
+   padding: 3px;
+ 
+   outline:none;
+   border:solid 1px rgb(156, 156, 156);
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+
+  
+   font-weight: 500;
+}
+
+
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+} 
+a {
+   text-decoration: none;
+   font-style: italic;
+   padding:10px;
+}
+
+.index-container{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1400px) {
+    .index-container{
+        width:70%;
+    }
+}
+
+@media only screen and (min-width: 1401px) {
+    .index-container{
+        width:40%;
+    }
+}
